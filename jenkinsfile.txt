@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Deploy to Tomcat'){
         steps {
-        sh 'cp -r /root/.jenkins/workspace/mvnproj3/target/* /opt/apache-tomcat-8.5.31/webapps/'
+        sh 'cp -r /root/.jenkins/workspace/pipeliproj/target/* /opt/apache-tomcat-8.5.31/'
         }
         }
 
